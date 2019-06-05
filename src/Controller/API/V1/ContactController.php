@@ -35,11 +35,13 @@ class ContactController extends AbstractController
         $form = $this->createForm(ContactType::class, $contact, [
             'csrf_protection' => false
         ]);
+
         $form->setData($contact);
         $form->handleRequest($request);
         $form->submit($request->request->all());
 
         $errors = $validator->validate($contact);
+
         if (count($errors) > 0) {
             $errorsString = (string) $errors;
             return new JsonResponse(array(
@@ -50,15 +52,16 @@ class ContactController extends AbstractController
 
         if ($form->isValid()) {
             $infoContact = $form->getData();//on récupère toutes les données du formulaire contact
-            $firstname = $infoContact;
-            $name = $infoContact->getMessage();
-            $email = $infoContact->getMessage();
-            $commentaires = $infoContact;
-            $body = "Object : $firstname, Message : $name, Email : $email Commentaires  :  $commentaires";
+
+            $firstname = $infoContact->getFirstname();
+            $name = $infoContact->getName();
+            $email = $infoContact->getEmail();
+            $commentaire = $infoContact->getCommentaire();
+            $body = "Object : $firstname, Message : $name, Email : $email Commentaires  :  $commentaire";
             $mail = (new \Swift_Message('Folio'))
                 ->setSubject('Folio Asmae')
                 ->setFrom(array('noreply@host.com'))
-                ->setTo('asmadouce@unova.fr')
+                ->setTo('asmae.elgueddari@gmail.com')
                 ->setBody($body);
             $mailer->send($mail);
 

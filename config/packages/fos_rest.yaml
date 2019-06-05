@@ -16,6 +16,7 @@ fos_rest:
       'Symfony\Component\Security\Core\Exception\BadCredentialsException': true # pour conserver le message d'erreur et ne pas le remplacer par "Internal Server Error"
     codes:
       'Symfony\Component\Security\Core\Exception\BadCredentialsException': 401 # attribue le code d'erreur 401 au lieu de 500
+    exception_controller: 'fos_rest.exception.controller:showAction'
 
     #body_listener:
     #enabled: true

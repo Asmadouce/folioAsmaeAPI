@@ -23,7 +23,7 @@ class CompetenceController extends Controller implements ControllerInterface{
      *     description="Returns competences list",
      *     @SWG\Schema(
      *          type="array",
-     *          @SWG\Items(ref=@Model(type="App\Entity\Competence", groups={"competence"}))
+     *          @SWG\Items(ref=@Model(type="App\Entity\Competence"))
      *      )
      * )
      * @SWG\Tag(name="Competence")

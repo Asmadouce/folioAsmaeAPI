@@ -1,6 +1,3 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
 api_v1_competence:
   prefix: /api/v1
   type:     rest
@@ -11,12 +8,6 @@ api_v1_experiences:
   prefix: /api/v1
   type:     rest
   resource: App\Controller\API\V1\ExperiencesController
-
-api_v1_fullstack:
-  prefix: /api/v1
-  type:     rest
-  resource: App\Controller\API\V1\FullstackController
-
 
 api_v1_relaisalisations:
   prefix: /api/v1

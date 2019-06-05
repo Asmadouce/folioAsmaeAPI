@@ -16,16 +16,23 @@ class Competence
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
      * @JMS\Type("integer")
-     * @JMS\Groups({"competence","fullstack"})
+     * @JMS\Groups({"competence"})
      */
     private $id;
 
     /**
      * @ORM\Column(type="string", length=255)
      * @JMS\Type("string")
-     * @JMS\Groups({"competence","fullstack"})
+     * @JMS\Groups({"competence"})
      */
     private $name;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     * @JMS\Type("string")
+     * @JMS\Groups({"competence"})
+     */
+    private $img;
 
     public function getId(): ?int
     {
@@ -40,6 +47,18 @@ class Competence
     public function setName(string $name): self
     {
         $this->name = $name;
+
+        return $this;
+    }
+
+    public function getImg(): ?string
+    {
+        return $this->img;
+    }
+
+    public function setImg(?string $img): self
+    {
+        $this->img = $img;
 
         return $this;
     }
