@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../foliovue/src/components/Section1.vue" description="    h1{&#10;        font-family: AmaticFont,sans-serif..." line="29" />
+    <bookmark url="file://$PROJECT_DIR$/../foliovue/src/components/Section1.vue" description="    h1{&#10;        font-family: AmaticFont,sans-serif..." line="34" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9657328-b050-4d3b-a001-eeb3e4149cce" name="Default Changelist" comment="">
@@ -20,20 +20,7 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Controller/API/V1/ContactController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="807">
-              <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
-              <folding>
-                <element signature="e#41#64#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -56,7 +43,6 @@
         <option value="$PROJECT_DIR$/src/DataFixtures/CompetenceFixtures.php" />
         <option value="$PROJECT_DIR$/config/services.yaml" />
         <option value="$PROJECT_DIR$/src/Entity/Contact.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/Controller/API/V1/ContactController.php" />
         <option value="$PROJECT_DIR$/config/routes.yaml" />
         <option value="$PROJECT_DIR$/config/packages/nelmio_api_doc.yaml" />
@@ -64,6 +50,8 @@
         <option value="$PROJECT_DIR$/config/packages/framework.yaml" />
         <option value="$PROJECT_DIR$/config/packages/fos_rest.yaml" />
         <option value="$PROJECT_DIR$/src/Entity/Competence.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
   </component>
@@ -202,11 +190,10 @@
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1360" />
-    <option name="y" value="46" />
-    <option name="width" value="1680" />
-    <option name="height" value="1052" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="1360" />
+    <option name="height" value="678" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -219,38 +206,6 @@
             <path>
               <item name="folioAsmaeAPI" type="b2602c69:ProjectViewProjectNode" />
               <item name="folioAsmaeAPI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="folioAsmaeAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="folioAsmaeAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="folioAsmaeAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="folioAsmaeAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="folioAsmaeAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="folioAsmaeAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-              <item name="API" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="folioAsmaeAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="folioAsmaeAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-              <item name="API" type="462c0819:PsiDirectoryNode" />
-              <item name="V1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="folioAsmaeAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="folioAsmaeAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -334,12 +289,27 @@
       <workItem from="1559718825124" duration="6369000" />
       <workItem from="1559740110948" duration="1223000" />
       <workItem from="1559805396862" duration="743000" />
-      <workItem from="1559891397796" duration="1936000" />
+      <workItem from="1559891397796" duration="4706000" />
+      <workItem from="1559996609850" duration="292000" />
+      <workItem from="1560195564746" duration="643000" />
+      <workItem from="1560237046498" duration="1839000" />
+      <workItem from="1560259123743" duration="1229000" />
+      <workItem from="1560324694907" duration="1872000" />
+      <workItem from="1560332977794" duration="637000" />
+      <workItem from="1560334003832" duration="799000" />
+      <workItem from="1560342739658" duration="10000" />
+      <workItem from="1560362294182" duration="625000" />
+      <workItem from="1560367931781" duration="431000" />
+      <workItem from="1560368442314" duration="90000" />
+      <workItem from="1560370726715" duration="48000" />
+      <workItem from="1560419018521" duration="22000" />
+      <workItem from="1560419079537" duration="182000" />
+      <workItem from="1560427654182" duration="1251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55339000" />
+    <option name="totallyTimeSpent" value="68079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,10 +321,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1360" y="46" width="1680" height="1052" extended-state="7" />
+    <frame x="0" y="25" width="1366" height="678" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23561811" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18484849" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -367,8 +337,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18634886" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49847794" visible="true" weight="0.3114754" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50152206" side_tool="true" weight="0.9380692" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -513,16 +483,6 @@
     <entry file="file://$PROJECT_DIR$/config/routes.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/API/V1/CompetenceController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding>
-            <element signature="e#40#66#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes/annotations.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -544,23 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Competence.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding>
-            <element signature="e#30#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env.test">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -571,12 +514,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/API/V1/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
+        <state relative-caret-position="257">
           <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
           <folding>
             <element signature="e#41#64#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/API/V1/CompetenceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="5" />
+          <folding>
+            <element signature="e#40#66#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Romaoui.php" />
+    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20190612193627.php" />
+    <entry file="file://$PROJECT_DIR$/src/Entity/Competence.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding>
+            <element signature="e#30#62#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
